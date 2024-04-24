@@ -1,0 +1,77 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+nav a:hover {
+    color: #ddd; /* Change text color on hover */
+  }
+
+.canvas {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Smooth transition for scale change */
+}
+.button:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+#whitesmoke {
+  background-color: whitesmoke;
+}
+
+#cornflowerblue {
+  background-color: cornflowerblue;
+}
+
+#tomato {
+  background-color: tomato;
+}
+
+#paleturquoise{
+  background-color: paleturquoise;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+h2 span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: #777;
+}

@@ -1,0 +1,104 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0e0e0e; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+nav {
+  background-color: #111;
+  padding: 15px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#wrapper {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #4af626; /* Neon green color */
+  text-shadow: 0 0 10px #4af626; /* Neon green glow */
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.form {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #4af626; /* Neon green color */
+}
+
+.guessField {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #4af626; /* Neon green border */
+  border-radius: 5px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #111;
+}
+
+.guessSubmit, button{
+  background-color: #4af626; /* Neon green color */
+  color: #111; /* Dark background color */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guessSubmit:hover , button:hover{
+  background-color: #2a982a; /* Darker shade of neon green */
+}
+
+.resultPass {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(74, 246, 38, 0.5); /* Neon green glow */
+}
+
+.resultPass p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.guesses {
+  color: #4af626; /* Neon green color */
+}
+
+.lastResult {
+  color: #ff6347; /* Tomato red color for remaining guesses */
+}
+
+.lowOrHi {
+  font-size: 1.2em;
+  color: #4af626; /* Neon green color */
+}

@@ -1,0 +1,47 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #f0f0f0; /* Light text color */
+}
+
+nav {
+  padding: 20px 25px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#banner {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #8d8d8d; /* Light gray color for the banner text */
+}
+
+#clock {
+  font-size: 10em; /* Larger font size */
+  color: #f0f0f0; /* Light text color */
+  background-color: #333; /* Dark background color */
+  padding: 40px 80px; /* Increased padding */
+  border-radius: 40px; /* Increased border-radius */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 8px; /* Increased letter-spacing */
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Increased text-shadow */
+  position: relative;
+}
