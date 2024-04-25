@@ -1,0 +1,95 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Projects section styles */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Project article styles */
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.project a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #333;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ddd;
+}
